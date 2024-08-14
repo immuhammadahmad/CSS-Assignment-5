@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+h3{
+    display: inline;
+}
+.body{
+    width: 95vw;
+    height: 95vh;
+    background-color: rgb(240, 233, 233);
+    border: 2px solid black;
+    margin: 2vh auto;
+}
+button{
+    padding: 8px 15px;
+    border: 1px solid rgb(0, 95, 133);
+    border-radius: 20px;
+    margin-top: 1vh;
+    background-color: rgb(11, 226, 241);
+}
+a{
+    text-decoration: none;
+    color:  rgb(42, 161, 165);
+}
+.header{
+    width: 98%;
+    height: 8vh;
+    background-color: rgba(138, 189, 255, 0.76);
+    border: 2px solid rgb(62, 87, 226);
+    margin: 4vh auto 4vh auto;
+}
+.nav{
+    width: 98%;
+    height: 8vh;
+    background-color: rgb(66, 252, 150);
+    border: 2px solid rgb(74, 190, 123);
+    margin: 4vh auto 4vh auto;
+}
+.contenar{
+    width: 98%;
+    height: 49vh;
+    display: flex;
+    margin: 4vh auto 4vh auto;
+
+}
+.main{
+    width: 62%;
+    height: 49vh;
+    background-color: aquamarine;
+    border: 2px solid rgb(65, 170, 135);
+    margin-right: 2vw;
+}
+.section{
+    width: 98%;
+    height: 40vh;
+    background-color: rgb(220, 192, 247);
+    border: 2px solid rgb(127, 79, 172);
+    margin: 3vh auto 1vh auto;
+}
+.artice{
+    width: 98%;
+    height: 15vh;
+    background-color: rgb(250, 163, 163);
+    border: 2px solid brown;
+    margin: 2vh auto;
+    justify-items: center;
+}
+.aside{
+    width: 35%;
+    height: 49vh;
+    background-color: antiquewhite;
+    border: 2px solid rgb(248, 188, 110);
+    margin-left: 2vw;
+}
+.footer{
+    width: 98%;
+    height: 8vh;
+    background-color: rgb(132, 235, 248);
+    border: 2px solid rgb(0, 132, 255);
+    margin: 4vh auto 4vh auto;
+}
